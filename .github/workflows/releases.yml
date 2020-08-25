@@ -4,7 +4,7 @@ on:
     paths-ignore:
       - 'README.md'
     branches:
-      - 'releases/**'
+      - 'master'
     tags:
       - 'v-*'
 
