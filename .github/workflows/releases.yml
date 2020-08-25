@@ -43,7 +43,7 @@ jobs:
         with:
           draft: true
           files: |
-            dist_electron/mac
+            dist_electron/*-mac.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
