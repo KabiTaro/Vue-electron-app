@@ -8,7 +8,7 @@ on:
 
 jobs:
   mac-build:
-    name: Mac用CI-CD
+    name: Mac用 CI-CD
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -48,7 +48,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   win-build:
-    name: Windows用CI-CD
+    name: Windows用 CI-CD
     runs-on: windows-latest
     steps:
       - name: Checkout Repo
