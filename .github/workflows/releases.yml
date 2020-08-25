@@ -8,7 +8,7 @@ on:
 
 jobs:
   mac-build:
-    name: Mac用Build
+    name: Mac用CI-CD
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -43,12 +43,12 @@ jobs:
         with:
           draft: true
           files: |
-            dist_electron/mac/*.dmg
+            dist_electron/mac
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   win-build:
-    name: Windows用Build
+    name: Windows用CI-CD
     runs-on: windows-latest
     steps:
       - name: Checkout Repo
