@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Task from "@/components/pages/Task";
+import Task from "./components/pages/Task";
 
 /** import store from '@/store' */
 
