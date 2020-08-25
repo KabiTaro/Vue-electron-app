@@ -1,0 +1,32 @@
+.DS_Store
+node_modules
+/release-builds
+/dist
+/build
+/release
+
+# local env files
+.env.local
+.env.*.local
+.pak
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#Electron-builder output
+/dist_electron
+src/components/pages/Task.vue
+
+# Sqlite
+*.db

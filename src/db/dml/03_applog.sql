@@ -1,0 +1,1 @@
+insert into AppLog values($Id, $StartDateTime,$EndDateTime);

@@ -1,0 +1,1 @@
+SELECT * from View_CurrentLevel;

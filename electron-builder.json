@@ -1,0 +1,32 @@
+{
+    "productName": "To-do",
+    "appId": "com.myApp",
+    "files": [
+      "src/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "protocols": {
+      "name": "myApp",
+      "schemes": [
+        "myApp"
+      ]
+    },
+    "mac": {
+      "target": [
+        "default"
+      ]
+    },
+    "win":{
+        "target": {
+            "target": "portable",
+            "arch": [
+                "x64",
+                "ia32"
+            ]
+        }
+    },
+    "portable": {
+      "artifactName": "激ヤバToDOアプリ.exe"
+  }
+}
