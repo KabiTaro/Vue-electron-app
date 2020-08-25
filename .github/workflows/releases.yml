@@ -43,6 +43,6 @@ jobs:
         with:
           draft: true
           files: |
-            dist_electron/*.exe
+            dist_electron/win-unpacked/*.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
