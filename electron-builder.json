@@ -14,19 +14,19 @@
   },
   "mac": {
     "target": [
-      "portable"
+      "default"
     ]
   },
-  "win": {
-    "target": {
-      "target": "portable",
-      "arch": [
-        "x64",
-        "ia32"
-      ]
-    }
+  "win":{
+      "target": {
+          "target": "portable",
+          "arch": [
+              "x64",
+              "ia32"
+          ]
+      }
   },
   "portable": {
     "artifactName": "激ヤバToDOアプリ.exe"
-  }
+}
 }
