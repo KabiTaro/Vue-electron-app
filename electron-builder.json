@@ -1,9 +1,6 @@
 {
   "productName": "To-do",
   "appId": "com.myApp",
-  "directories": {
-    "output": "dist_electron"
-  },
   "files": [
     "src/**/*",
     "node_modules/**/*",
@@ -17,7 +14,7 @@
   },
   "mac": {
     "target": [
-      "default"
+      "portable"
     ]
   },
   "win": {
