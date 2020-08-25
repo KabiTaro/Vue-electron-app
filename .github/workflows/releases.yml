@@ -31,6 +31,9 @@ jobs:
       - name: Test
         run: npm test
 
+      - name: postinstall
+        run : npm run postinstall
+
       - name: build application
         run: npm run eb-w
 
